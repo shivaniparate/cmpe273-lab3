@@ -1,1 +1,3 @@
 # cmpe273-lab3
+In a connected UDP socket,datagrams can be sent/received to/from a single address. Here, we do not need to specify where to send the datagrams and where do they come from since it comes only from a single address, which is ,the address to which the socket is connected. 
+Whereas in multicast UDP, the datagrams can be sent to multiple hosts without even knowing the IP addresses of the hosts specifically. And unlike connected UDP, here you need to join a specific group address in order to receive the datagrams. Thus, Multicast datagrams are sent to special multicast group addresses ,along with a corresponding port.
